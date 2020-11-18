@@ -1,0 +1,4 @@
+服务注册中心:
+可以作为服务注册中心的还有Zookeeper,nocas,Eureka
+Zookeeper偏向于CP:数据一致性
+Eureka偏向于AP:可用性
