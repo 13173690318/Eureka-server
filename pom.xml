@@ -8,6 +8,7 @@
   <groupId>com.ouysb</groupId>
   <artifactId>Eureka-server</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
   
   <!-- spring boot -->
   <dependencies>
