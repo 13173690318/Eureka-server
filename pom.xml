@@ -8,7 +8,7 @@
   <groupId>com.ouysb</groupId>
   <artifactId>Eureka-server</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+ <!--  <packaging>war</packaging> -->
   
   <!-- spring boot -->
   <dependencies>
@@ -17,11 +17,11 @@
   		<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
   	</dependency>
   	
-  	<!-- 开启认证 -->
+  	<!-- 开启认证
     <dependency>
   		<groupId>org.springframework.boot</groupId>
   		<artifactId>spring-boot-starter-security</artifactId>
-  	</dependency>
+  	</dependency> -->
   </dependencies>
   
   <!-- springcloud -->
@@ -45,14 +45,15 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin> <!-- 打包成war时采用的javac -->
+			<!-- 打包成war时采用的javac 
+			<plugin> 
 				<groupId>org.apache.maven.plugins</groupId> 
 				<artifactId>maven-compiler-plugin</artifactId> 
 				<configuration> 
 					<fork>true</fork> 
 					<executable>E:\java\jdk1.8.0_144\bin\javac.exe</executable> 
 				</configuration> 
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 </project>
